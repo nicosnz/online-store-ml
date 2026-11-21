@@ -1,0 +1,9 @@
+variante,modelo,variable dominante,tamaños (%),cluster más pequeño: n,cluster más pequeño: gasto mediano (£),Silhouette (espacio propio),Silhouette (común),DB (común),CH (común),ARI vs elegido
+"Sin log, sin escalar",K-Means,monetary (98% de la varianza),99.7 / 0.3 / 0.0,2,550806.0,0.974,0.443,1.115,41.7,-0.001
+"Sin log, sin escalar",GMM,monetary (98% de la varianza),66.3 / 26.9 / 6.8,317,11920.0,0.52,0.147,1.801,915.9,0.275
+"Sin log, con escalado",K-Means,recency_days (11% de la varianza),69.7 / 30.0 / 0.3,13,168504.0,0.262,0.187,1.407,589.1,0.312
+"Sin log, con escalado",GMM,recency_days (11% de la varianza),86.0 / 12.3 / 1.7,79,30375.0,0.141,0.108,1.54,347.6,0.165
+"Con log, sin escalar",K-Means,tenure_days (54% de la varianza),41.0 / 30.6 / 28.4,1325,509.0,0.551,0.198,1.684,1042.7,0.466
+"Con log, sin escalar",GMM,tenure_days (54% de la varianza),35.9 / 33.3 / 30.8,1439,2948.0,0.527,0.175,1.793,998.0,0.375
+Con log + escalado (elegido),K-Means,recency_days (11% de la varianza),41.2 / 32.6 / 26.2,1223,564.0,0.232,0.232,1.55,1448.4,1.0
+Con log + escalado (elegido),GMM,recency_days (11% de la varianza),40.0 / 39.6 / 20.4,952,564.0,0.213,0.213,1.555,1327.4,1.0

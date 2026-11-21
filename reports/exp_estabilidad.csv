@@ -1,0 +1,13 @@
+modelo,espacio,prueba,ARI medio,ARI desv.,ARI mín.
+K-Means,Original,10 semillas (n_init elegido),0.998,0.002,0.995
+K-Means,Original,10 semillas (n_init=1),0.942,0.165,0.447
+K-Means,Original,20 submuestras 80 %,0.977,0.018,0.919
+K-Means,PCA,10 semillas (n_init elegido),0.997,0.002,0.994
+K-Means,PCA,10 semillas (n_init=1),0.997,0.001,0.995
+K-Means,PCA,20 submuestras 80 %,0.978,0.012,0.95
+GMM,Original,10 semillas (n_init elegido),0.949,0.148,0.504
+GMM,Original,10 semillas (n_init=1),0.949,0.148,0.504
+GMM,Original,20 submuestras 80 %,0.871,0.143,0.291
+GMM,PCA,10 semillas (n_init elegido),0.996,0.002,0.994
+GMM,PCA,10 semillas (n_init=1),0.993,0.002,0.99
+GMM,PCA,20 submuestras 80 %,0.834,0.247,0.149

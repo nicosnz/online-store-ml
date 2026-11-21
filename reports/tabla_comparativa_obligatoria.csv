@@ -1,0 +1,5 @@
+Modelo,Espacio,Hiperparámetros,N.° grupos,Silhouette ↑ (train / test),Davies-Bouldin ↓ (train / test),Calinski-Harabasz ↑ (train / test),% ruido,Tiempo (s),ARI vs. original
+Modelo A: K-Means,Original (9 variables),"n_clusters=3, n_init=10, init=k-means++",3,0.232 / 0.231,1.550 / 1.530,1448.4 / 364.2,0 %,0.065,—
+Modelo A: K-Means,PCA (5 comp.),"n_clusters=3, n_init=10, init=k-means++",3,0.253 / 0.251,1.448 / 1.438,1632.1 / 406.4,0 %,0.039,0.989
+Modelo B: GMM,Original (9 variables),"n_components=3, covariance_type='spherical', n_init=3",3,0.213 / 0.215,1.555 / 1.509,1327.4 / 339.3,0 %,0.113,—
+Modelo B: GMM,PCA (5 comp.),"n_components=3, covariance_type='spherical', n_init=3",3,0.250 / 0.246,1.410 / 1.406,1604.9 / 400.4,0 %,0.031,0.813

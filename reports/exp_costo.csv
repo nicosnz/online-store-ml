@@ -1,0 +1,5 @@
+modelo,espacio,fit 1× (s),fit 10× (s),exponente fit,fit 100× estimado (s),predict test (ms),Silhouette 1× (s),Silhouette 4× (s),exponente Silhouette,Silhouette 100× estimado (s)
+K-Means,Original,0.085,1.304,1.186,20.03,0.39,0.334,4.612,1.893,3341.841
+K-Means,PCA,0.038,1.199,1.501,38.054,0.355,0.353,4.919,1.9,3533.045
+GMM,Original,0.102,0.997,0.988,10.248,0.313,0.339,4.933,1.931,3392.91
+GMM,PCA,0.025,0.521,1.316,10.775,0.174,0.344,4.903,1.917,3435.872
